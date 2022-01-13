@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #274471;
+  font-family: "Lato", sans-serif;
+}
+
+div.container {
+  margin: auto;
+  width: 400px;
+  background-color: rgb(243, 243, 243);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 6px;
+  padding: 25px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 16px 10px 16px;
+  margin: 8px 0px 8px 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+input:hover {
+  background-color: yellow;
+}
+
+#message {
+  width: 100%;
+  padding: 10px 16px 10px 16px;
+  margin: 8px 0px 8px 0px;
+  border: none;
+  border-radius: 5px;
+}
+
+#submit {
+  background-color: #1ac0f3;
+  cursor: pointer;
+  color: white;
+  padding: 10px 16px 10px 16px;
+}
+
+#contactForm {
+  padding: 25px;
+}
